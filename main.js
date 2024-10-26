@@ -6,8 +6,12 @@ algunos podrán evolucionar a versiones mejoradas con nuevas habilidades        
 Object.defineProperty(exports, "__esModule", { value: true });
 var El_Ninja_1 = require("./El_Ninja");
 var Arquero_1 = require("./Arquero");
+var Arma_1 = require("./Arma");
 // crear personajes
+var armaArqueros = new Arma_1.Arma();
+armaArqueros.setArma("Arquero");
 var arquero1 = new Arquero_1.Arquero("Arquero", 10, 25, "Arquero");
+console.log(armaArqueros);
 console.log(arquero1);
 console.log(arquero1.habilidades());
 arquero1.setNombre("Dibu");

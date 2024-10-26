@@ -13,9 +13,10 @@ import { Arquero } from "./Arquero";
 import { Arma } from "./Arma";
 
 // crear personajes
-
+let armaArqueros:Arma=new Arma();
+armaArqueros.setArma("Arquero");
 let arquero1:Arquero= new Arquero("Arquero",10,25,"Arquero");
-
+console.log(armaArqueros);
 console.log(arquero1);
 console.log(arquero1.habilidades());
 arquero1.setNombre("Dibu");
