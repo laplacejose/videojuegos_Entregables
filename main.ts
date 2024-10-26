@@ -28,3 +28,4 @@ let Ninja1:El_Ninja= new El_Ninja("Ninja",10,25,"Ninja");
 
 console.log(Ninja1);
 console.log(Ninja1.habilidades());
+
