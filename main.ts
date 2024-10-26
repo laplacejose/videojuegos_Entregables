@@ -11,7 +11,7 @@ import { Mago } from "./Mago";
 import { El_Ninja } from "./El_Ninja";
 import { Arquero } from "./Arquero";
 import { Arma } from "./Arma";
-
+ 
 // crear personajes
 let armaArqueros:Arma=new Arma();
 armaArqueros.setArma("Arquero");
