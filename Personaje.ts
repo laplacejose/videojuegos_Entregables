@@ -4,14 +4,14 @@ export abstract class Personaje {
       protected nombre:string;
       protected vida :number;
       protected fuerza:number;
-
+      protected Habilidades:string;
     public constructor(suNombre:string, suVida:number,suFuerza:number) {
         this.nombre=suNombre;
         this.vida=suVida +25;
         this.fuerza=suFuerza;
+        this.Habilidades="";
     } 
-    public abstract habilidades():string;
-   // Metodos Seters..
+
 
     public setNombre(nombrePersonaje):void{
         this.nombre=nombrePersonaje;
@@ -38,6 +38,9 @@ export abstract class Personaje {
         return this.fuerza
         
     }
+
+        public abstract habilidad():string;
+   // Metodos Seters..
 }
 
 
